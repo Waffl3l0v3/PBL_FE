@@ -295,6 +295,7 @@
 
 body{
     background:white;
+    padding-bottom:80px;
   }
   .footer {
     position: relative;

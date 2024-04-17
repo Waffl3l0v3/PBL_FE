@@ -268,7 +268,7 @@
     display: grid;
 /*       display: flex;
   flex-wrap: wrap; */
-  justify-content: center; /* Center align horizontally */
+/*   justify-content: center; /* Center align horizontally */ */
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr ;
 

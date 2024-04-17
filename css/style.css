@@ -295,18 +295,18 @@
 
 body{
     background:white;
-    padding-bottom:80px;
+    padding-bottom:95px;
   }
   .footer {
     position: relative;
     background: #0463FA;
-    min-height: 100px;
-    padding: 20px 50px;
+    height: 100px;
+/*     padding: 20px 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top:35%;
+/*     margin-top:35%; */
   }
   
   .social-icon,

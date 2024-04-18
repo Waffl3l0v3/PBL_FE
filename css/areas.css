@@ -10,7 +10,7 @@
       background-color: #0463FA; /* Light gray background */
       border-radius: 10px; /* Add rounded corners */
       margin-bottom: 20px; /* Add space between cards */
-      display: flex;  
+/*       display: flex;   */
           /* Arrange content side-by-side */ 
       position: relative; /* Needed for hover effect */
           display: grid;
@@ -39,7 +39,7 @@
     }
 
     .card-body {
-      width: 60%; /* Set width for text section */
+      width: 50%; /* Set width for text section */
       padding: 15px; /* Add some padding inside text section */
       
     }

@@ -271,6 +271,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr ;
+    padding-top:195px;  
 
   }
 
@@ -301,7 +302,7 @@ body{
   .footer {
     position: relative;
     background: #0463FA;
-    min-height: 100px;
+    height: 250px;
     padding: 20px 50px;
     display: flex;
     justify-content: center;

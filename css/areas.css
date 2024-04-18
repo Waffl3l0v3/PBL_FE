@@ -10,19 +10,19 @@
       background-color: #0463FA; /* Light gray background */
       border-radius: 10px; /* Add rounded corners */
       margin-bottom: 20px; /* Add space between cards */
-/*       display: flex;   */
+      display: flex;  
           /* Arrange content side-by-side */ 
-      position: relative; /* Needed for hover effect */
-          display: grid;
+     /* position: relative; /* Needed for hover effect */
+         /* display: grid;
     grid-template-columns: 1fr 1fr;
          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust width as needed */
-    gap: 20px; /* Add gap between columns */
+   /* gap: 20px; /* Add gap between columns */
     }
 
     .card-image {
       width: 40%; /* Set width for image section */
       padding: 15px; /* Add some padding inside image section */
-      position: relative;
+    
       
     }
 

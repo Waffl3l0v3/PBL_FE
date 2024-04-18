@@ -15,8 +15,8 @@
       position: relative; /* Needed for hover effect */
           display: grid;
     grid-template-columns: 1fr 1fr;
-          grid-column-width: 50%;
-/*            display: inline-flex; */
+         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust width as needed */
+    gap: 20px; /* Add gap between columns */
     }
 
     .card-image {

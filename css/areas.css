@@ -10,11 +10,12 @@
       background-color: #0463FA; /* Light gray background */
       border-radius: 10px; /* Add rounded corners */
       margin-bottom: 20px; /* Add space between cards */
-/*       display: flex;*/
-          /* Arrange content side-by-side */
+/*       display: flex; */  
+          /* Arrange content side-by-side */ 
       position: relative; /* Needed for hover effect */
-          display: grid;
-    grid-template-columns: 1fr 1fr;
+/*           display: grid;
+    grid-template-columns: 1fr 1fr; */
+           display: inline-flex;
     }
 
     .card-image {

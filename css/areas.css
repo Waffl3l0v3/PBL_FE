@@ -2,6 +2,7 @@
       padding: 20px; /* Add some padding for better look */
       max-width: 900px; /* Set a maximum width for responsive design */
       margin: 0 auto; /* Center the container horizontally */
+      
     }
 
     .card {
@@ -16,6 +17,7 @@
       width: 40%; /* Set width for image section */
       padding: 15px; /* Add some padding inside image section */
       position: relative;
+      float:left;
     }
 
     .card-image img {
@@ -34,6 +36,7 @@
     .card-body {
       width: 60%; /* Set width for text section */
       padding: 15px; /* Add some padding inside text section */
+          float:right;
     }
 
     .card-title {

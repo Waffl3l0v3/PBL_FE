@@ -417,3 +417,51 @@ body{
       background-positon-x: 0px;
     }
   }
+
+.dropdown {
+  /* position: relative; */
+  /* display: inline-block; */
+  float: right;
+  padding-right: 0%;
+}
+
+/* Style the button that will be used to open the dropdown menu */
+.dropdown button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the dropdown menu items */
+.dropdown-menu {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%; /* Position the dropdown menu below the button */
+  /* right: 0;
+} */
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-menu a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Style the active/current link */
+.dropdown-menu .active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+

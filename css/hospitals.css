@@ -1,0 +1,25 @@
+body {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #560f0f;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #d96b6b;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .specifications {
+            margin-top: 20px;
+        }
+        .specification-item {
+            margin-bottom: 10px;
+        }
+        .specification-item label {
+            font-weight: bold;
+        }

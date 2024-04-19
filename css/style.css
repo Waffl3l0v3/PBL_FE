@@ -5,6 +5,10 @@
   --dark: #1B2C51;
 }
 
+a {
+  text-decoration:none;
+}
+
 .fw-medium {
   font-weight: 500 !important;
 }

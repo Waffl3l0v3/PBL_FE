@@ -431,7 +431,7 @@ body{
 
 /* Style the button that will be used to open the dropdown menu */
 .dropdown button {
-  background-color: #7a5595; /* Green */
+  background-color: rgb(122, 85, 149); /* Green */
   color: white;
   padding: 10px;
   font-size: 16px;
@@ -451,7 +451,7 @@ body{
 } 
 
 .dropdown-menu a {
-  color: rgb(117, 126, 182);
+  color:rgb(117, 126, 182);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -459,7 +459,7 @@ body{
 
 /* Change color of dropdown links on hover */
 .dropdown-menu a:hover {
-  background-color: #2daad0;
+  background-color: rgb(45, 170, 208);
 }
 
 /* Style the active/current link */
